@@ -6,6 +6,7 @@ export const Main = styled.main`
   margin: 0 auto;
   max-width: 40rem;
   margin-top: 10rem;
+  padding: 0 1.2rem;
 `;
 
 export const Container = styled.div`
@@ -25,16 +26,16 @@ export const Header = styled.div`
   align-items: center;
   width: 100%;
   padding-bottom: 1.2rem;
-  padding-left: 0.8rem;
-  padding-right: 0.8rem;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
 
   & > h4 {
     font-size: 2.1rem;
   }
   & > span {
     display: inline-block;
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 1rem;
+    height: 1rem;
     border-radius: 50%;
   }
   & > span.red {
@@ -122,15 +123,15 @@ export const ButtonWrap = styled.div`
 
   button {
     border: none;
-    padding: 0.8rem;
+    padding: 0.8rem 1.2rem;
     border-radius: 0.8rem;
     cursor: pointer;
-    background: #8abfac;
+    background: #388e3c;
     margin-left: 0.8rem;
+    color: #fff;
   }
 
   div.connected > button {
     background: #f44336;
-    color: #fff;
   }
 `;
